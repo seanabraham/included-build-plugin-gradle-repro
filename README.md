@@ -2,6 +2,8 @@ This is a simple repro of a problem with a problem with plugin application (spec
 
 In particular, it looks like if the same plugin is (validly) applied to multiple projects and there are dependencies between these projects, a failure can result depending on what tasks are requested.
 
+This reproduces on at least Gradle 6.2.1 (where I encountered it) and the latest version of Gradle 6.6.1 which I've just tested.
+
 
 ## Repro
 
