@@ -62,9 +62,9 @@ Hello, world! Applying to foo
 BUILD SUCCESSFUL in 679ms
 ```
 
-## Bug
+### Bug
 
-However, when building :projects:baz (which depends on :projects:foo) and :projects:foo:bar with configurationondemand enabled, the following confusing failure results:
+However, when building `:projects:baz` (which depends on `:projects:foo`) and `:projects:foo:bar` with configuration on demand enabled, the following confusing failure results:
 
 ```
 ❯ ./gradlew :projects:baz:classes :projects:foo:bar:classes
