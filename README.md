@@ -1,4 +1,3 @@
-## Included Plugin Repro
 This is a simple repro of a problem with a problem with plugin application (specifically in this case when the plugin is defined in an included build) and configure on demand resulting in some odd behavior.
 
 In particular, it looks like if the same plugin is (validly) applied to multiple projects and there are dependencies between these projects, a failure can result depending on what tasks are requested.
